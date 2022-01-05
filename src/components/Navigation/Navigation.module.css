@@ -121,7 +121,7 @@ nav {
 .menu-btn--burger::before,
 .menu-btn--burger::after {
   content: "";
-  position: fixed;
+  position: absolute;
 
   width: 3rem;
   height: 0.4rem;
