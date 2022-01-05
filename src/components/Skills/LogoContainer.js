@@ -9,7 +9,7 @@ const LogoContainer = (props) => {
       opacity: 0,
       rotate: 72,
     },
-    { opacity: 1, rotate: 0, transition: { duration: 0.5, delay: 1.2 } },
+    { opacity: 1, rotate: 0, transition: { duration: 0.5, delay: 0.5 } },
     0.2
   );
 

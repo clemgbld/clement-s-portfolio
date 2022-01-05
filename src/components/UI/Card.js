@@ -16,7 +16,6 @@ const Card = (props) => {
       x: 0,
       transition: {
         duration: 0.5,
-        delay: 0.7,
       },
     },
     0.2

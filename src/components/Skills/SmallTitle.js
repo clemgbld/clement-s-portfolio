@@ -14,7 +14,7 @@ const SmallTitle = (props) => {
       x: 0,
       transition: {
         duration: 0.3,
-        delay: 1.2,
+        delay: 0.5,
       },
     },
     0.2
