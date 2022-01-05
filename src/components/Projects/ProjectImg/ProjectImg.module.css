@@ -1,0 +1,39 @@
+.laptop-container {
+  width: 57.66rem;
+  height: 30.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+
+  position: relative;
+}
+
+.img-container {
+  position: absolute;
+
+  overflow: hidden;
+  width: 70.5%;
+  height: 82%;
+  top: 6.6%;
+  left: 16.5%;
+  z-index: 2;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 81.25em) {
+  .three {
+    grid-row: 4;
+  }
+}
+
+@media (max-width: 38.13em) {
+  .laptop-container {
+    width: 46.13rem;
+    height: 24.4rem;
+  }
+}

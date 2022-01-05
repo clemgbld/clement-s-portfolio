@@ -1,0 +1,9 @@
+@media (max-width: 81.25em) {
+  .svg {
+    position: absolute;
+    /* transform: rotate(90deg); */
+    bottom: -1%;
+    right: -5%;
+    z-index: -1;
+  }
+}

@@ -1,0 +1,26 @@
+.project-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2rem;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 79em) {
+  .project-text {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 38.13em) {
+  .project-text {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 24em) {
+  .project-text {
+    font-size: 1rem;
+  }
+}

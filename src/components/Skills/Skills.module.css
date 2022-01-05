@@ -1,0 +1,38 @@
+.container {
+  background-color: #c5f6fa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3.2rem;
+  padding-top: 11.6rem;
+
+  padding-bottom: 9.6rem;
+}
+
+.title {
+  font-size: 6rem;
+  letter-spacing: -0.5rem;
+  margin-bottom: 1.6rem;
+  color: #212529;
+  align-self: flex-start;
+  justify-self: flex-start;
+  margin-bottom: 2.8rem;
+}
+
+@media (max-width: 79em) {
+  .title {
+    font-size: 5rem;
+  }
+
+  .container {
+    padding-top: 6rem;
+  }
+}
+
+@media (max-width: 31.9em) {
+  .title {
+    font-size: 3.3rem;
+    letter-spacing: -0.2rem;
+  }
+}

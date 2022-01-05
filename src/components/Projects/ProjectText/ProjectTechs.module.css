@@ -1,0 +1,23 @@
+.project-tech {
+  color: #99e9f2;
+  text-align: center;
+  margin-bottom: 3.6rem;
+}
+
+@media (max-width: 79em) {
+  .project-tech {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 38.13em) {
+  .project-tech {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 24em) {
+  .project-tech {
+    font-size: 1.6rem;
+  }
+}

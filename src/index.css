@@ -1,13 +1,140 @@
-body {
+* {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  /* font-size: 10px; */
+
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+  overflow-x: hidden;
+  background-color: #212529;
+
+  /* Does NOT work on Safari */
+  /* scroll-behavior: smooth; */
+}
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #fff;
+
+  /* Only works if there is nothing absolutely positioned in relation to body */
+  overflow-x: hidden;
+}
+
+/* ScrollBar */
+
+::-webkit-scrollbar {
+  width: 1rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(transparent, #08fdd8);
+  border-radius: 2.5rem;
+  height: 3rem;
+  transition: all 1s ease-in-out;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-image: linear-gradient(transparent, #0c8599);
+}
+
+@supports (scrollbar-color: #08fdd8, #212529) {
+  * {
+    scrollbar-color: #08fdd8 #212529;
+    scrollbar-width: thin;
+  }
+}
+
+/* button */
+
+.button {
+  display: block;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 22rem;
+  height: 5rem;
+  border: solid 1px #08fdd8;
+  background-color: inherit;
+  font-size: 1.6rem;
+  color: #08fdd8;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+@media (max-width: 59.25em) {
+  .button {
+    width: 18rem;
+    height: 4.5rem;
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 31.9em) {
+  .button {
+    width: 14rem;
+    height: 3.5rem;
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 24em) {
+  .button {
+    width: 11rem;
+    height: 3.2rem;
+    font-size: 1rem;
+  }
+}
+
+.button:hover {
+  box-shadow: inset 22rem 0 0 0 #08fdd8;
+  color: #212529;
+}
+
+.button::after {
+  position: absolute;
+  content: "";
+  width: 0.5rem;
+  height: 0.5rem;
+
+  background: #08fdd8;
+  right: 0;
+  bottom: 0;
+  transform: translate(0.1rem, 0.1rem);
+}
+
+.button:hover::after {
+  background: #c5f6fa;
+  z-index: 5;
+}
+
+button:disabled:hover,
+button:disabled:active {
+  border: solid 1px #ff6b6b;
+  box-shadow: inset 22rem 0 0 0 #ff6b6b !important;
+  cursor: not-allowed !important;
+}
+
+button:disabled:hover::after {
+  background: #ffc9c9;
+  z-index: 5;
 }

@@ -1,0 +1,18 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.build {
+  font-size: 1.6rem;
+  color: #c5f6fa;
+}
+
+.copy {
+  font-size: 1.2rem;
+  color: #c5f6fa;
+}

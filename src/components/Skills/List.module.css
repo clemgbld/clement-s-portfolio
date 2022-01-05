@@ -1,0 +1,9 @@
+.list {
+  list-style: none;
+  color: #c5f6fa;
+  font-size: 1.4rem;
+}
+
+.list li {
+  margin-bottom: 1rem;
+}

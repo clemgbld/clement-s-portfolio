@@ -1,0 +1,20 @@
+.contact-img {
+  width: 50rem;
+  height: 39.6rem;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(43, 43, 43, 0.336),
+      rgba(33, 37, 41, 0.356)
+    ),
+    url("../../img/contact.webp");
+  background-size: cover;
+  background-position: center;
+  /* z-index: 200; */
+}
+
+@media (max-width: 31.9rem) {
+  .contact-img {
+    width: 35rem;
+    height: 24.6rem;
+  }
+}

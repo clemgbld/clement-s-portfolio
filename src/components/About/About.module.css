@@ -1,0 +1,59 @@
+.about-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 9.6rem;
+  row-gap: 2rem;
+  padding-left: 3.2rem;
+  padding-bottom: 9.6rem;
+  margin: 0 auto;
+}
+
+.about-title {
+  justify-self: start;
+  font-size: 6rem;
+  letter-spacing: -0.5rem;
+  margin-bottom: 1.6rem;
+  color: #08fdd8;
+  margin-top: 3.2rem;
+  margin-bottom: 4.8rem;
+}
+
+.about-text {
+  font-size: 2.4em;
+  align-items: center;
+
+  margin-bottom: 1.6rem;
+  line-height: 1.2;
+  display: flex;
+  gap: 1rem;
+}
+
+.icon {
+  font-size: 4rem;
+  color: #08fdd8;
+}
+
+@media (max-width: 79em) {
+  .about-title {
+    font-size: 4.5rem;
+  }
+}
+
+@media (max-width: 93.4em) {
+  .about-box {
+    column-gap: 0rem;
+  }
+}
+
+@media (max-width: 31.25em) {
+  .about-box {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 31.9em) {
+  .about-title {
+    font-size: 3.3rem;
+    letter-spacing: -0.2rem;
+  }
+}

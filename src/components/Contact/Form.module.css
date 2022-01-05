@@ -1,0 +1,86 @@
+.container {
+  padding: 3.2rem;
+}
+
+.form-control input:focus,
+.form-control textarea:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.1rem rgb(8, 253, 216);
+  transition-timing-function: ease-in;
+  transition: all 0.3s ease-in;
+}
+
+input:npm-internal-autofill-selected {
+  background: #2b2b2b;
+}
+
+.small {
+  display: flex;
+  gap: 1rem;
+}
+
+.form-control input,
+.form-control select,
+.form-control textarea {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: #2b2b2b;
+  height: 5rem;
+  font-size: 1 6rem;
+  color: #08fdd8;
+  padding: 0.5rem 2rem;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 1rem;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.message {
+  min-height: 15rem;
+  resize: none;
+}
+
+.invalid input,
+.invalid textarea {
+  box-shadow: 0 0 0 0.1rem #ff6b6b;
+}
+
+.invalid input:focus,
+.invalid textarea:focus {
+  box-shadow: 0 0 0 0.1rem #ff6b6b;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:active,
+input:-webkit-autofill:focus {
+  background-color: #2b2b2b !important;
+  color: #08fdd8 !important;
+  -webkit-box-shadow: 0 0 0 1000px #2b2b2b inset !important;
+  -webkit-text-fill-color: #08fdd8 !important;
+}
+
+@media (max-width: 31.9em) {
+  .container {
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+@media (max-width: 31.9em) {
+  .small {
+    display: block;
+  }
+}
+@media (max-width: 31.9em) {
+  .form-control input,
+  .form-control select,
+  .form-control textarea {
+    width: 100%;
+    height: 100%;
+    font-size: 1.3rem;
+  }
+}

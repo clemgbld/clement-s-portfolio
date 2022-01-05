@@ -1,0 +1,15 @@
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15rem;
+  height: 15rem;
+}
+
+/* @media (max-width: 75em) {
+  .container {
+    width: 10rem;
+    height: 10rem;
+  }
+} */

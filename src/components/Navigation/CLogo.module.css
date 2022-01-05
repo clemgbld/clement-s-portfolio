@@ -1,0 +1,32 @@
+.c-logo--container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 10rem;
+  border-right: solid 3px #08fdd8;
+  background-color: #000;
+}
+
+.text {
+  font-size: 1rem;
+  text-align: center;
+  color: #e9ecef;
+}
+
+.c-logo {
+  display: block;
+  font-size: 6rem;
+  font-family: "Bungee Shade", cursive;
+  text-decoration: none;
+  color: #c5f6fa;
+  margin-right: 3rem;
+  transition: 0.3s ease-in-out;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+  cursor: pointer;
+}
+
+.c-logo:hover {
+  color: #08fdd8;
+}

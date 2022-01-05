@@ -1,0 +1,11 @@
+.title {
+  font-size: 3rem;
+  margin-bottom: 1.6rem;
+  color: #c5f6fa;
+}
+
+@media (max-width: 79em) {
+  .title {
+    font-size: 2.5rem;
+  }
+}

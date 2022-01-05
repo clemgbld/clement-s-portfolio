@@ -1,0 +1,42 @@
+.links-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40rem;
+    height: 10rem;
+  }
+  
+  .links-container a {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    font-size: 2rem;
+    color: #c5f6fa;
+    padding: 0;
+    transition: 0.3 ease-in-out;
+  }
+  
+  .links-container a:after {
+    content: "";
+    position: absolute;
+    background-color: #08fdd8;
+    height: 0.1rem;
+    width: 100%;
+    left: 0;
+  
+    bottom: -1rem;
+  
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .links-container a:hover {
+    color: #08fdd8;
+  }
+  
+  .links-container a:hover:after {
+    width: 100%;
+    transform-origin: left;
+    transform: scale(1);
+  }
