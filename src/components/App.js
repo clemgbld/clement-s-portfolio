@@ -1,9 +1,9 @@
 import React, { memo, useState, useEffect, Suspense, lazy } from "react";
-import classes from "./App.module.css";
+
 import Hero from "./Hero/Hero";
 import Navigation from "./Navigation/Navigation";
 import Loading from "./Loading/Loading";
-import { LazyMotion, domAnimation, AnimatePresence } from "framer-motion";
+import { LazyMotion, domAnimation} from "framer-motion";
 
 const Skills = lazy(() => import("./Skills/Skills"));
 const Projects = lazy(() => import("./Projects/Projects"));

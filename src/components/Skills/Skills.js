@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect } from "react";
 import classes from "./Skills.module.css";
 import Box from "./Box";
 import Card from "../UI/Card";
@@ -40,7 +40,7 @@ const Skills = ({ onView }) => {
 
   useEffect(() => {
     onView(inView);
-  }, [inView]);
+  }, [inView, onView]);
 
   const { ref, animation } = useMagic(
     { opacity: 0, translateY: "20px" },

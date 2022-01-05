@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import classes from "./Hero.module.css";
 import { AnimatedSpan } from "../CustomMotion/CustomMotion";
 import MainSVG from "./MainSVG";
@@ -8,8 +8,6 @@ import Down from "./Down";
 import { m } from "framer-motion";
 
 const Hero = () => {
-
-
   return (
     <>
       <div id="home" className={classes.container}>
@@ -46,7 +44,6 @@ const Hero = () => {
 
         <Down />
       </div>
-      
     </>
   );
 };

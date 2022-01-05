@@ -15,6 +15,7 @@ const WorkIcon = ({ href, name }) => {
 
   return (
     <AnimatedA
+      variants={navLinkVariants}
       initial="initial"
       animate="animate"
       className={classes.icon}

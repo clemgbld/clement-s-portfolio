@@ -1,4 +1,4 @@
-import React, { lazy } from "react";
+import React from "react";
 import classes from "./AboutMemoji.module.css";
 import useMagic from "../hooks/use-magic";
 import { AnimatedImg } from "../CustomMotion/CustomMotion";
