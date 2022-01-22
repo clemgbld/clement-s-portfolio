@@ -7,6 +7,13 @@
   height: 100%;
 }
 
+.btn-box {
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
 @media (max-width: 79em) {
   .project-text {
     font-size: 1.6rem;

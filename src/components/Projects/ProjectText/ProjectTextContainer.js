@@ -5,13 +5,24 @@ import ProjectSummary from "./ProjectSummary";
 import ProjectTechs from "./ProjectTechs";
 import ProjectTextTitle from "./ProjectTextTitle";
 
-const ProjectTextContainer = ({ text, summary, techs,title }) => {
+const ProjectTextContainer = ({
+  linkLive,
+  linkCode,
+  live,
+  code,
+  summary,
+  techs,
+  title,
+}) => {
   return (
     <div className={classes["project-text"]}>
-      <ProjectTextTitle title={title}/>
+      <ProjectTextTitle title={title} />
       <ProjectSummary summary={summary} />
       <ProjectTechs techs={techs} />
-      <Button text={text} />
+      <div className={classes["btn-box"]}>
+        <Button text={live} link={linkLive} />
+        <Button text={code} link={linkCode} />
+      </div>
     </div>
   );
 };

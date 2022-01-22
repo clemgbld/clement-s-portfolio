@@ -67,6 +67,7 @@ body {
 
 .button {
   display: block;
+  text-decoration: none;
   position: relative;
   display: flex;
   align-items: center;
