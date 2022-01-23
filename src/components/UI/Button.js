@@ -2,7 +2,7 @@ import React from "react";
 import { AnimatedA } from "../CustomMotion/CustomMotion";
 import useMagic from "../hooks/use-magic";
 
-const Button = ({ text, link }) => {
+const Button = ({ text, link, alt }) => {
   const { ref, animation } = useMagic(
     { opacity: 0, translateY: "20px" },
     {

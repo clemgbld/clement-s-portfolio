@@ -36,7 +36,7 @@ const Projects = () => {
       </AnimatedH2>
       <div className={classes["project-box"]}>
         <ProjectTextContainer
-          live="See more"
+          live="Live Version"
           code="Source Code"
           summary={summ1}
           title={title1}
@@ -50,7 +50,7 @@ const Projects = () => {
 
         <ProjectImg src="pomochampion" alt="a picture of a pomodoro project" />
         <ProjectTextContainer
-          live="See more"
+          live="Live Version"
           code="Source Code"
           summary={summ2}
           title={title2}
@@ -59,7 +59,7 @@ const Projects = () => {
           linkCode={"https://github.com/clemgbld/pomoChampion"}
         />
         <ProjectTextContainer
-          live="See more"
+          live="Live Version"
           code="Source Code"
           summary={summ1}
           title={title1}
