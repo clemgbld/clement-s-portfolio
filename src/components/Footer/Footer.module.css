@@ -10,6 +10,7 @@ footer {
 .build {
   font-size: 1.6rem;
   color: #c5f6fa;
+  margin-bottom: 0.5rem;
 }
 
 .copy {

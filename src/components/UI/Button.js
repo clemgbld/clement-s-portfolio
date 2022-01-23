@@ -22,6 +22,7 @@ const Button = ({ text, link }) => {
         initial={{ opacity: 0, translateY: "20px" }}
         animate={animation}
         className="button"
+        rel="noopener noreferrer"
       >
         {text}
       </AnimatedA>

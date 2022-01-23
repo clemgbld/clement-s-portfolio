@@ -1,0 +1,12 @@
+.codewars {
+  font-size: 4rem;
+  transition: 0.3s ease-in-out;
+  color: #c5f6fa;
+  border-radius: 50%;
+  transform: translateY(-2px);
+}
+
+.codewars:hover {
+  color: #08fdd8;
+  transform: scale(1.1);
+}

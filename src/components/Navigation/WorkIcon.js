@@ -21,6 +21,7 @@ const WorkIcon = ({ href, name }) => {
       className={classes.icon}
       href={href}
       target="_blank"
+      rel="noopener noreferrer"
     >
       <ion-icon name={name}></ion-icon>
     </AnimatedA>

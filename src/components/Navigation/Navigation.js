@@ -27,6 +27,7 @@ import CLogo from "./CLogo";
 import NavLink from "./NavLink";
 import WorkIcon from "./WorkIcon";
 import MobileContainer from "./MobileContainer";
+import CodeWarsIcon from "./CodeWarsIcon";
 
 const Navigation = ({ view }) => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -147,6 +148,7 @@ const Navigation = ({ view }) => {
               href="https://www.linkedin.com/in/cl%C3%A9ment-gombauld"
               name="logo-linkedin"
             />
+            <CodeWarsIcon />
           </div>
         </AnimatedDiv>
       )}
