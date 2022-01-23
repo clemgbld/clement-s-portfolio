@@ -13,7 +13,7 @@ const icon4 = "heart-outline";
 const icon5 = "build-outline";
 
 const text1 = "I'm a french developer located in Paris, France";
-const text2 = "I'm really passionate about Front End and UI/UX Desing";
+const text2 = "I'm really passionate about Front End and UI/UX Design";
 const text3 = "I'm a problem solver,quick learner and a good teammate";
 const text4 = "In my spare time i play baskatball,play chess and read";
 const text5 = "I also like the backend and heading on a fullstack path";
