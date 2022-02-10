@@ -61,6 +61,7 @@ input:-webkit-autofill:active,
 input:-webkit-autofill:focus {
   background-color: #2b2b2b !important;
   color: #08fdd8 !important;
+  box-shadow: 0 0 0 1000px #2b2b2b inset !important;
   -webkit-box-shadow: 0 0 0 1000px #2b2b2b inset !important;
   -webkit-text-fill-color: #08fdd8 !important;
 }
