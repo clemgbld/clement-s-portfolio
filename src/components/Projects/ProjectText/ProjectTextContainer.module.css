@@ -1,4 +1,5 @@
-.project-text {
+.project-text,
+.project-inverse {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -14,20 +15,29 @@
   justify-content: space-between;
 }
 
+@media (max-width: 81.25em) {
+  .project-inverse {
+    grid-row: 3/4;
+  }
+}
+
 @media (max-width: 79em) {
-  .project-text {
+  .project-text,
+  .project-inverse {
     font-size: 1.6rem;
   }
 }
 
 @media (max-width: 38.13em) {
-  .project-text {
+  .project-text,
+  .project-inverse {
     font-size: 1.4rem;
   }
 }
 
 @media (max-width: 24em) {
-  .project-text {
+  .project-text,
+  .project-inverse {
     font-size: 1rem;
   }
 }

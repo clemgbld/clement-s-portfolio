@@ -41,6 +41,9 @@ const Projects = () => {
           summary={summ1}
           title={title1}
           techs={techs}
+          linkLive="https://youtube-clone-vert.vercel.app/"
+          linkCode="https://github.com/clemgbld/youtube-clone"
+          inverse={false}
         />
 
         <ProjectImg src="youtube" alt="a picture of a youtube-clone project" />
@@ -52,17 +55,19 @@ const Projects = () => {
           summary={summ2}
           title={title2}
           techs={techs2}
-          linkLive={"https://pomochampion.netlify.app"}
-          linkCode={"https://github.com/clemgbld/pomoChampion"}
+          linkLive="https://pomochampion.netlify.app"
+          linkCode="https://github.com/clemgbld/pomoChampion"
+          inverse={true}
         />
-        <ProjectTextContainer
+        {/* <ProjectTextContainer
           live="Live Version"
           code="Source Code"
           summary={summ1}
           title={title1}
           techs={techs}
+          inverse={false}
         />
-        <ProjectImg src="weather" alt="a picture of a weather app" />
+        <ProjectImg src="weather" alt="a picture of a weather app" /> */}
       </div>
     </div>
   );

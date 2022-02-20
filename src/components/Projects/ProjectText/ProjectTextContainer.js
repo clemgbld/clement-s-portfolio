@@ -13,9 +13,14 @@ const ProjectTextContainer = ({
   summary,
   techs,
   title,
+  inverse,
 }) => {
+  const classContainer = inverse
+    ? classes["project-inverse"]
+    : classes["project-text"];
+
   return (
-    <div className={classes["project-text"]}>
+    <div className={classContainer}>
       <ProjectTextTitle title={title} />
       <ProjectSummary summary={summary} />
       <ProjectTechs techs={techs} />
