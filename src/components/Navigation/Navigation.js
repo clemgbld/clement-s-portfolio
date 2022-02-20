@@ -149,6 +149,10 @@ const Navigation = ({ view }) => {
               name="logo-linkedin"
             />
             <CodeWarsIcon />
+            <WorkIcon
+              href="https://longing-orbit-7b7.notion.site/Cl-ment-Gombauld-dd405cd98ea24b2f9c16ef5f1414cfaf"
+              name="document-text"
+            />
           </div>
         </AnimatedDiv>
       )}
