@@ -18,9 +18,9 @@ const css = ["Flex-Box", "CSS Grid", "Responsive Design", "CSS Animations"];
 const javascript = [
   " ECMAScript 2015",
   "Functional Programming",
-  "Object Orianted Programming",
+  "Object Oriented Programming",
   "Asynchronus Programming",
-  "Jquerry",
+  "JQuery",
   "Cross Browser Code",
 ];
 
