@@ -33,7 +33,7 @@ const About = () => {
   );
 
   return (
-    <div id="about" className={classes["about-box"]}>
+    <section id="about" className={classes["about-box"]}>
       <div ref={ref}>
         <AnimatedH2 animate={animation} className={classes["about-title"]}>
           <Letter>M</Letter>yself
@@ -46,7 +46,7 @@ const About = () => {
       </div>
 
       <AboutMemoji />
-    </div>
+    </section>
   );
 };
 

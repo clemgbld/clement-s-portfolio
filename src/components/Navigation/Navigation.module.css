@@ -1,7 +1,6 @@
 nav {
   position: fixed;
   top: 0;
-  /* max-width: 151.68rem; */
   width: 100%;
   height: 10rem;
   display: flex;
@@ -166,7 +165,7 @@ nav {
   display: flex;
   gap: 1rem;
   justify-content: center;
-  align-items: end;
+  align-items: flex-end;
 }
 
 @media (max-width: 81.25em) {

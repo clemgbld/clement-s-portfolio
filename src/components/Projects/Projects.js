@@ -30,7 +30,7 @@ const Projects = () => {
   );
 
   return (
-    <div className={classes.container} ref={ref} id="projects">
+    <section className={classes.container} ref={ref} id="projects">
       <AnimatedH2 animate={animation} className={classes["projects-title"]}>
         My <Letter>P</Letter>ortfolio
       </AnimatedH2>
@@ -59,17 +59,8 @@ const Projects = () => {
           linkCode="https://github.com/clemgbld/pomoChampion"
           inverse={true}
         />
-        {/* <ProjectTextContainer
-          live="Live Version"
-          code="Source Code"
-          summary={summ1}
-          title={title1}
-          techs={techs}
-          inverse={false}
-        />
-        <ProjectImg src="weather" alt="a picture of a weather app" /> */}
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -59,9 +59,9 @@ const App = () => {
   };
 
   return (
-    <div>
+    <main>
       <LazyMotion features={domAnimation}>{renderContent()}</LazyMotion>
-    </div>
+    </main>
   );
 };
 

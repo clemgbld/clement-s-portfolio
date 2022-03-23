@@ -57,7 +57,7 @@ const Skills = ({ onView }) => {
   return (
     <>
       <span ref={refNav}></span>
-      <div ref={ref} className={classes.container}>
+      <section ref={ref} className={classes.container}>
         <AnimatedH2 id="skills" animate={animation} className={classes.title}>
           Web <Letter>D</Letter>evelopement Skills
         </AnimatedH2>
@@ -92,7 +92,7 @@ const Skills = ({ onView }) => {
             <List skills={react} />
           </Card>
         </Box>
-      </div>
+      </section>
     </>
   );
 };

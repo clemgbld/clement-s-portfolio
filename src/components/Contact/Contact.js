@@ -21,13 +21,13 @@ const Contact = () => {
   );
 
   return (
-    <div ref={ref} id="contact" className={classes["big-container"]}>
+    <section ref={ref} id="contact" className={classes["big-container"]}>
       <AnimatedH2 className={classes.title} animate={animation}>
         <Letter>G</Letter>et in Touch
       </AnimatedH2>
       <ContactContainer />
       <Email />
-    </div>
+    </section>
   );
 };
 

@@ -10,7 +10,7 @@ import { m } from "framer-motion";
 const Hero = () => {
   return (
     <>
-      <div id="home" className={classes.container}>
+      <section id="home" className={classes.container}>
         <div className={classes["left-container"]}>
           <m.h1
             initial={{ opacity: 0 }}
@@ -43,7 +43,7 @@ const Hero = () => {
         <MainSVG />
 
         <Down />
-      </div>
+      </section>
     </>
   );
 };

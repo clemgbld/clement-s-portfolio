@@ -81,80 +81,89 @@ const Navigation = ({ view }) => {
   return (
     <AnimatePresence>
       {!view && (
-        <m.nav
-          key="nav"
-          variants={navVariants}
-          initial="initial"
-          animate="animate"
-          exit="exit"
-        >
-          <IconContainer />
-          <LinksContainer />
-        </m.nav>
+        <header>
+          <m.nav
+            key="nav"
+            variants={navVariants}
+            initial="initial"
+            animate="animate"
+            exit="exit"
+          >
+            <IconContainer />
+            <LinksContainer />
+          </m.nav>
+        </header>
       )}
       <div className={menuClasses} onClick={menuHandler}>
         <div className={classes["menu-btn--burger"]}></div>
       </div>
       {menuOpen && (
-        <AnimatedDiv
-          key="mobile"
-          variants={mobileVariants}
-          initial="initial"
-          animate="animate"
-          exit="exit"
-          className={classes["mobile-menu"]}
-        >
-          <CLogo onClose={menuHandler} />
-          <MobileContainer>
-            <NavLink
-              to={to1}
-              delay={delay1}
-              text={text1}
-              offset={offset1}
-              onClose={menuHandler}
-            />
-          </MobileContainer>
-          <MobileContainer>
-            <NavLink
-              to={to2}
-              delay={delay2}
-              text={text2}
-              offset={offset2}
-              onClose={menuHandler}
-            />
-          </MobileContainer>
+        <header>
+          <nav>
+            <AnimatedDiv
+              key="mobile"
+              variants={mobileVariants}
+              initial="initial"
+              animate="animate"
+              exit="exit"
+              className={classes["mobile-menu"]}
+            >
+              <CLogo onClose={menuHandler} />
+              <MobileContainer>
+                <NavLink
+                  to={to1}
+                  delay={delay1}
+                  text={text1}
+                  offset={offset1}
+                  onClose={menuHandler}
+                />
+              </MobileContainer>
+              <MobileContainer>
+                <NavLink
+                  to={to2}
+                  delay={delay2}
+                  text={text2}
+                  offset={offset2}
+                  onClose={menuHandler}
+                />
+              </MobileContainer>
 
-          <MobileContainer>
-            <NavLink
-              to={to3}
-              delay={delay3}
-              text={text3}
-              offset={offset3}
-              onClose={menuHandler}
-            />
-          </MobileContainer>
-          <MobileContainer>
-            <NavLink
-              to={to4}
-              delay={delay4}
-              text={text4}
-              offset={offset4}
-              onClose={menuHandler}
-            />
-          </MobileContainer>
-          <div className={classes["icon-container"]}>
-            <WorkIcon href="https://github.com/clemgbld" name="logo-github" />
-            <WorkIcon
-              href="https://www.linkedin.com/in/cl%C3%A9ment-gombauld"
-              name="logo-linkedin"
-            />
-            <CodeWarsIcon />
-            <WorkIcon
-              href="https://longing-orbit-7b7.notion.site/Cl-ment-Gombauld-dd405cd98ea24b2f9c16ef5f1414cfaf"
-              name="document-text"
-            />
-          </div>
-        </AnimatedDiv>
+              <MobileContainer>
+                <NavLink
+                  to={to3}
+                  delay={delay3}
+                  text={text3}
+                  offset={offset3}
+                  onClose={menuHandler}
+                />
+              </MobileContainer>
+              <MobileContainer>
+                <NavLink
+                  to={to4}
+                  delay={delay4}
+                  text={text4}
+                  offset={offset4}
+                  onClose={menuHandler}
+                />
+              </MobileContainer>
+              <div className={classes["icon-container"]}>
+                <WorkIcon
+                  href="https://github.com/clemgbld"
+                  name="logo-github"
+                />
+                <WorkIcon
+                  href="https://www.linkedin.com/in/cl%C3%A9ment-gombauld"
+                  name="logo-linkedin"
+                />
+                <CodeWarsIcon />
+                <WorkIcon
+                  href="https://longing-orbit-7b7.notion.site/Cl-ment-Gombauld-dd405cd98ea24b2f9c16ef5f1414cfaf"
+                  name="document-text"
+                />
+              </div>
+            </AnimatedDiv>
+          </nav>
+        </header>
       )}
     </AnimatePresence>
   );
