@@ -81,9 +81,8 @@ const Navigation = ({ view }) => {
   return (
     <AnimatePresence>
       {!view && (
-        <header>
+        <header key="desktop">
           <m.nav
-            key="nav"
             variants={navVariants}
             initial="initial"
             animate="animate"
@@ -94,14 +93,13 @@ const Navigation = ({ view }) => {
           </m.nav>
         </header>
       )}
-      <div className={menuClasses} onClick={menuHandler}>
+      <div key="burger" className={menuClasses} onClick={menuHandler}>
         <div className={classes["menu-btn--burger"]}></div>
       </div>
       {menuOpen && (
-        <header>
+        <header key="mobile">
           <nav>
             <AnimatedDiv
-              key="mobile"
               variants={mobileVariants}
               initial="initial"
               animate="animate"
