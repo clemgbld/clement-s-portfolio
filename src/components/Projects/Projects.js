@@ -9,7 +9,7 @@ import ProjectTextContainer from "./ProjectText/ProjectTextContainer";
 const title1 = "01 Youtube-Clone";
 const summ1 =
   " I developed a Youtube-clone in Next Js, Typescript with the help of the youtube API, my app copy several features of the real youtube including: videos streaming, voice search, retrieve all the comments of a video, retrieve all the videos of a the channel of your choice, pagination and infinite scroll, register videos by like or by watch later, and more...";
-const techs = "Next js - Typescript - CSS-module - Context API - Framer Motion";
+const techs = "Next js - Typescript - CSS-module - Context API";
 const title2 = "02 Time Management App";
 const summ2 =
   "I built a time management app based on the pomodoro technique, i discovered the concept of web workers who help me to set up a timer that works off the windows. I also put a real time settings system in place with the help of redux and some google authentication with Firebase. and finally i used React-Router for the routing logic between the login page and the different timers pages. ";
