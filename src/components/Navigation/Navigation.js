@@ -98,7 +98,7 @@ const Navigation = ({ view }) => {
       </div>
       {menuOpen && (
         <header key="mobile">
-          <nav>
+          <nav className={classes["mobile-nav"]}>
             <AnimatedDiv
               variants={mobileVariants}
               initial="initial"

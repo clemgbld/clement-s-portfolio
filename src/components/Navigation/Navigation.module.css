@@ -18,6 +18,10 @@ nav {
   nav {
     display: none;
   }
+
+  .mobile-nav {
+    display: block;
+  }
 }
 
 .icons-container {
@@ -146,6 +150,7 @@ nav {
 .menu-btn.open .menu-btn--burger::after {
   transform: rotate(-45deg) translate(0.7rem, -0.75rem);
 }
+
 .mobile-menu {
   position: fixed;
   width: 100vw;
@@ -155,7 +160,7 @@ nav {
   top: 0;
   right: 0;
   background-color: #212529;
-  z-index: 98;
+  z-index: 99;
   transition: all 0.3s;
 }
 
