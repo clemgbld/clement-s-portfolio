@@ -21,7 +21,7 @@ const javascript = [
   "Object Oriented Programming",
   "Asynchronus Programming",
   "JQuery",
-  "Cross Browser Code",
+  "Unit test (Jest)",
 ];
 
 const react = [
@@ -30,7 +30,6 @@ const react = [
   "React Router",
   "React-Redux",
   "Framer Motion",
-  "Unit test (Jest)",
 ];
 
 const Skills = ({ onView }) => {
