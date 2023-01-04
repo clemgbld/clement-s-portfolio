@@ -18,6 +18,7 @@ const IconContainer = () => {
         href="https://longing-orbit-7b7.notion.site/Cl-ment-Gombauld-dd405cd98ea24b2f9c16ef5f1414cfaf"
         name="document-text"
       />
+      <WorkIcon href="https://blog-clement-gombauld.vercel.app" name="pencil-outline"/>
     </div>
   );
 };
