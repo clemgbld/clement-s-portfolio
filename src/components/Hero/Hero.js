@@ -35,7 +35,7 @@ const Hero = () => {
               C
             </AnimatedSpan>
             lement,
-            <br /> a FrontEnd Developer
+            <br /> a Fullstack Developer
           </m.h1>
 
           <ButtonLink text="Contact me !" to="contact" offset={-120} />
