@@ -15,21 +15,13 @@ const html = ["Semantic Code", "HTML Architecture"];
 
 const css = ["Flex-Box", "CSS Grid", "Responsive Design", "CSS Animations"];
 
-const javascript = [
-  " ECMAScript 2015",
-  "Functional Programming",
-  "Object Oriented Programming",
-  "Asynchronus Programming",
-  "JQuery",
-  "Unit test (Jest)",
-];
+const frontend = ["Typescript", "Javascript", "Redux", "React", "Next js"];
 
-const react = [
-  "Functional Components",
-  "Class Based Component",
-  "React Router",
-  "React-Redux",
-  "Framer Motion",
+const backend = [
+  "Node js",
+  "Express js",
+  "Api communication",
+  "Database Managment",
 ];
 
 const Skills = ({ onView }) => {
@@ -78,17 +70,17 @@ const Skills = ({ onView }) => {
           </Card>
           <Card>
             <LogoContainer>
-              <ion-icon name="logo-javascript"></ion-icon>
+              <ion-icon name="logo-react"></ion-icon>
             </LogoContainer>
-            <SmallTitle>Javascript</SmallTitle>
-            <List skills={javascript} />
+            <SmallTitle>Frontend</SmallTitle>
+            <List skills={frontend} />
           </Card>
           <Card>
             <LogoContainer>
-              <ion-icon name="logo-react"></ion-icon>
+              <ion-icon name="logo-nodejs"></ion-icon>
             </LogoContainer>
-            <SmallTitle>React</SmallTitle>
-            <List skills={react} />
+            <SmallTitle>Backend</SmallTitle>
+            <List skills={backend} />
           </Card>
         </Box>
       </section>
