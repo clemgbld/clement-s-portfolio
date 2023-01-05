@@ -10,18 +10,22 @@ import {
   to2,
   to3,
   to4,
+  to5,
   text1,
   text2,
   text3,
   text4,
+  text5,
   delay1,
   delay2,
   delay3,
   delay4,
+  delay5,
   offset1,
   offset2,
   offset3,
   offset4,
+  offset5
 } from "./LinksContainer";
 import CLogo from "./CLogo";
 import NavLink from "./NavLink";
@@ -116,6 +120,7 @@ const Navigation = ({ view }) => {
                   onClose={menuHandler}
                 />
               </MobileContainer>
+             
               <MobileContainer>
                 <NavLink
                   to={to2}
@@ -125,7 +130,15 @@ const Navigation = ({ view }) => {
                   onClose={menuHandler}
                 />
               </MobileContainer>
-
+              <MobileContainer>
+              <NavLink
+                  to={to5}
+                  delay={delay5}
+                  text={text5}
+                  offset={offset5}
+                  onClose={menuHandler}
+                />
+              </MobileContainer>
               <MobileContainer>
                 <NavLink
                   to={to3}
@@ -144,6 +157,7 @@ const Navigation = ({ view }) => {
                   onClose={menuHandler}
                 />
               </MobileContainer>
+             
               <div className={classes["icon-container"]}>
                 <WorkIcon
                   href="https://github.com/clemgbld"

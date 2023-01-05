@@ -4,6 +4,8 @@
     align-items: center;
     width: 40rem;
     height: 10rem;
+    gap:2rem;
+    margin-right: 2rem;
   }
   
   .links-container a {

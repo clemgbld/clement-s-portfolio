@@ -7,6 +7,7 @@ import { LazyMotion, domAnimation } from "framer-motion";
 
 const Skills = lazy(() => import("./Skills/Skills"));
 const Projects = lazy(() => import("./Projects/Projects"));
+const Experience = lazy(() => import("./Experience/Experience"));
 const About = lazy(() => import("./About/About"));
 const Contact = lazy(() => import("./Contact/Contact"));
 const Footer = lazy(() => import("./Footer/Footer"));
@@ -43,6 +44,9 @@ const App = () => {
           </Suspense>
           <Suspense fallback={<div>Loading...</div>}>
             <Projects />
+          </Suspense>
+          <Suspense fallback={<div>Loading...</div>}>
+            <Experience/>
           </Suspense>
           <Suspense fallback={<div>Loading...</div>}>
             <About />
