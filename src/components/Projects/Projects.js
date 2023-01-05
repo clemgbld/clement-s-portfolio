@@ -10,11 +10,41 @@ const title1 = "01 Youtube-Clone";
 const summ1 =
   " I developed a Youtube-clone in Next Js, Typescript with the help of the youtube API, my app copy several features of the real youtube including: videos streaming, voice search, retrieve all the comments of a video, retrieve all the videos of a the channel of your choice, pagination and infinite scroll, register videos by like or by watch later, and more...";
 const techs = "Next js - Typescript - CSS-module - Context API";
-const title2 = "02 Time Management App";
+const title2 = "03 Time Management App";
 const summ2 =
   "I built a time management app based on the pomodoro technique, i discovered the concept of web workers who help me to set up a timer that works off the windows. I also put a real time settings system in place with the help of redux and some google authentication with Firebase. and finally i used React-Router for the routing logic between the login page and the different timers pages. ";
 
 const techs2 = "React - Redux - CSS-module - Firebase - React-Router";
+
+const techsBlog =
+  "Next js - React - Slate - Redux - Zustand - Node - Express - MongoDB";
+
+const SummBlog = () => (
+  <p>
+    I put up a technical blog in Next js as well as a custom CMS with the{" "}
+    <a
+      className={classes.link}
+      target="_blank"
+      rel="noreferrer"
+      href="https://github.com/clemgbld/blog_back_office"
+    >
+      Frontend
+    </a>{" "}
+    in React Redux and The{" "}
+    <a
+      className={classes.link}
+      target="_blank"
+      rel="noreferrer"
+      href="https://github.com/clemgbld/backend_blog"
+    >
+      Backend
+    </a>{" "}
+    in Node js Express. The three projects have been developed following good
+    practices such as Test driven development and Hexagonal architecture. I
+    explored recursion in depth because i had to build a custom rendering system
+    for my blog.
+  </p>
+);
 
 const Projects = () => {
   const { ref, animation } = useMagic(
@@ -48,7 +78,19 @@ const Projects = () => {
 
         <ProjectImg src="youtube" alt="a picture of a youtube-clone project" />
 
-        <ProjectImg src="pomochampion" alt="a picture of a pomodoro project" />
+        <ProjectImg src="blog" alt="a picture of a blog project" />
+
+        <ProjectTextContainer
+          live="Live Version"
+          code="Source Code"
+          summary={SummBlog()}
+          title="02 Blog and CMS"
+          techs={techsBlog}
+          linkLive="https://blog-clement-gombauld.vercel.app/"
+          linkCode="https://github.com/clemgbld/blog"
+          inverse={true}
+        />
+
         <ProjectTextContainer
           live="Live Version"
           code="Source Code"
@@ -57,8 +99,9 @@ const Projects = () => {
           techs={techs2}
           linkLive="https://pomochampion.netlify.app"
           linkCode="https://github.com/clemgbld/pomoChampion"
-          inverse={true}
+          inverse={false}
         />
+        <ProjectImg src="pomochampion" alt="a picture of a pomodoro project" />
       </div>
     </section>
   );

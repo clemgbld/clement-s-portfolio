@@ -6,6 +6,15 @@
   align-items: center;
 }
 
+.link {
+  color: #08fdd8;
+}
+
+.link:visited,
+link:active {
+  color: #c5f6fa;
+}
+
 .project-box {
   max-width: 140rem;
   display: grid;
