@@ -43,7 +43,7 @@ const ExperienceContainer = () => {
           position="Frontend Developer"
           firm="Memo de vie"
           dates="2022"
-          summary="A french application that helps domestic violence victims. I added new features to their app with React and Firebase."
+          summary="A french application that helps domestic violence victims. I added new features to their app."
           delay={0.9}
         />
       </AnimatedDiv>
