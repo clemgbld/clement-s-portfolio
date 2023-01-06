@@ -20,7 +20,7 @@ const techsBlog =
   "Next js - React - Slate - Redux - Zustand - Node - Express - MongoDB";
 
 const SummBlog = () => (
-  <p>
+  <span>
     I put up a technical blog in Next js as well as a custom CMS with the{" "}
     <a
       className={classes.link}
@@ -43,7 +43,7 @@ const SummBlog = () => (
     practices such as Test driven development and Hexagonal architecture. I
     explored recursion in depth because i had to build a custom rendering system
     for my blog.
-  </p>
+  </span>
 );
 
 const Projects = () => {

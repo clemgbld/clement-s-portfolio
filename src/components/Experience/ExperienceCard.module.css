@@ -1,0 +1,37 @@
+.expCard {
+  line-height: 1.2;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 32rem;
+  width: 100%;
+  padding: 3rem;
+  background-color: #2a2a2a !important;
+  transition: all 0.3s ease-in-out;
+}
+
+.expCard:hover {
+
+    box-shadow: 0 0 0 1px rgba(8, 253, 216, 0.5);
+  
+ 
+
+}
+
+.title {
+  color: #08fdd8;
+  font-size: 2rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.dates {
+  font-size: 1.2rem;
+}

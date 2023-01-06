@@ -1,0 +1,13 @@
+.container {
+  max-width: 70vw;
+  width: fit-content;
+  padding: 0 3.2rem;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
+  column-gap: 1.6rem;
+  row-gap: 1.6rem;
+  background-color: #212529;
+  padding: 7rem;
+  border: solid 1rem #000;
+}
