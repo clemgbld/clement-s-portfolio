@@ -12,10 +12,10 @@ const icon3 = "person-circle-outline";
 const icon4 = "heart-outline";
 const icon5 = "build-outline";
 
-const text1 = "I'm a french developer located in Paris, France";
+const text1 = "I'm a French developer located in Paris, France";
 const text2 = "I'm really passionate about Front End and UI/UX Design";
-const text3 = "I'm a problem solver,quick learner and a good teammate";
-const text4 = "In my spare time i play baskatball, play chess and read";
+const text3 = "I'm a problem solver, quick learner and a good teammate";
+const text4 = "In my spare time i play basketball, play chess and read";
 const text5 = "I'm also versatile and enjoy working on the backend";
 
 const About = () => {
