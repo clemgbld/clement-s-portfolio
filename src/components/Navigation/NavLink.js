@@ -16,7 +16,7 @@ const NavLink = ({ text, to, offset, delay, onClose }) => {
   };
 
   return (
-    <Link to={to} smooth={true} duration={400} offset={offset}>
+    <Link href="#" to={to} smooth={true} duration={500} offset={offset}>
       <AnimatedP
         className={classes.link}
         variants={navLinkVariants}
