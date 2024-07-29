@@ -26,10 +26,10 @@ const ExperienceContainer = () => {
         />
 
         <ExperienceCard
-          position="Frontend Developer"
+          position="Fullstack Software Developer"
           firm="Canal +"
           dates="2022-present"
-          summary="I worked in the French CRM of the firm, i helped to migrate the app from Angular js to React."
+          summary="I worked on the frontend and backend of the French CRM of the firm."
           delay={0.5}
         />
         <ExperienceCard
