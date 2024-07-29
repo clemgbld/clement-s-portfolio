@@ -29,7 +29,7 @@ const ExperienceContainer = () => {
           position="Fullstack Software Developer"
           firm="Canal +"
           dates="2022-present"
-          summary="I worked on the frontend and backend of the French CRM of the firm."
+          summary="I worked on the frontend and backend of the French CRM of the firm. I mainly worked with Typescript and Java."
           delay={0.5}
         />
         <ExperienceCard
